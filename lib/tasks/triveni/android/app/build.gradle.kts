@@ -20,7 +20,7 @@ android {
         applicationId = "com.example.student_record_app"
         
         // 3. CHANGED FROM flutter.minSdkVersion TO 23 FOR FIREBASE
-        minSdk = 23
+        minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
